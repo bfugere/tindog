@@ -126,3 +126,31 @@ p {
     width: 15%;
     margin: 20px 20px 50px;
 }
+
+/* Pricing Section */
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+    background-color: #ff4c68;
+}
+
+#pricing h2, p {
+    color: #fff;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+    background-color: #ef8172;
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #ef8172;
+}
