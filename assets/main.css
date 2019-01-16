@@ -157,10 +157,35 @@ p {
 
 #cta {
     background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+#cta h3 {
+    padding: 2%;
 }
 
 /* Footer Section */
 
 #footer {
     background-color: #ef8172;
+    text-align: center;
+}
+
+#footer p {
+    color: #fff;
+    padding: 2% 0 1% 0;
+    margin: 0;
+}
+
+@media (max-width: 1028px) {
+    
+    #title {
+        text-align: center;
+    }
+    
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
