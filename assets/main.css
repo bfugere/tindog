@@ -138,15 +138,6 @@ p {
 #pricing {
     text-align: center;
     padding: 100px;
-    background-color: #ff4c68;
-}
-
-#pricing h2 {
-    color: #fff;
-}
-
-#pricing p {
-    color: #fff;
 }
 
 .pricing-column {
@@ -156,26 +147,45 @@ p {
 /* CTA Section */
 
 #cta {
-    background-color: #ef8172;
+    background-color: #ff4c68;
     color: #fff;
+    padding: 7% 15%;
     text-align: center;
 }
 
-#cta h3 {
-    padding: 2%;
+.cta-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.5;
 }
 
 /* Footer Section */
 
 #footer {
-    background-color: #ef8172;
+    padding: 7% 15%;
     text-align: center;
 }
 
-#footer p {
-    color: #fff;
-    padding: 2% 0 1% 0;
-    margin: 0;
+.social-icon {
+    margin: 20px 15px;
+    font-size: 1.5rem;
+}
+
+.fa-facebook {
+    color: #3b5998;
+}
+
+.fa-twitter {
+    color: #38A1F3;
+}
+
+.fa-instagram {
+    color: #cc3366;
+}
+
+.fa-envelope {
+    color: #8f8f8f;
 }
 
 @media (max-width: 1028px) {
